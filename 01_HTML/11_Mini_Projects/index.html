@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+    <h1>Registration Page</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label>
+            Username
+            <input type="text" name="Username" placeholder="Enter your username" required>
+        </label>
+        <br><br>
+        <label>
+            Email
+            <input type="email" name="Email" placeholder="Enter your email" required>
+        </label>
+        </fieldset>
+        <br><br>
+        <label>
+            Password
+            <input type="password" name="Password" placeholder="Enter your password" required>
+        </label>
+        <br><br>
+        <label>
+            Confirm Password
+            <input type="password" name="Confirm Password" placeholder="Confirm your password" required>
+        </label>
+        <br><br>
+        <label>
+            Date of Birth
+            <input type="date" name="Date of Birth" required>
+        </label>
+        <br><br>
+        <label>
+            Upload your Resume
+            <input type="file" name="Upload your Resume" required>
+        </label>
+        <br><br>
+        <label>
+            Choose your favorite colour
+            <input type="color" name="Choose your favorite colour" required>
+        </label>
+        <br><br>
+        <label>
+            Years of Experience
+            <input type="range" name="Years of Experience" min="0" max="10" required>
+        </label>
+        <br><br>
+        <p>Gender</p>
+        <label>
+            <input type="radio" name="Gender" value="Male" required>
+            Male
+        </label>
+        <label>
+            <input type="radio" name="Gender" value="Female">
+            Female
+        </label>
+        <label>
+            <input type="radio" name="Gender" value="Other">
+            Other
+        </label>
+        <br><br>
+        <p>Hobbies</p>
+        <label>
+            <input type="checkbox" name="Hobbies" value="Reading">
+            Reading
+        </label>
+        <label>
+            <input type="checkbox" name="Hobbies" value="Traveling">
+            Traveling
+        </label>
+        <label>
+            <input type="checkbox" name="Hobbies" value="Cooking">
+            Cooking
+        </label>
+        <br><br>
+        <label>
+            <p>Country</p>
+            <select name="Country" id="Country" required>
+                <option value="">Select your country</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">UK</option>
+                <option value="Australia">Australia</option>
+                <option value="India">India</option>
+            </select>
+        </label>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
